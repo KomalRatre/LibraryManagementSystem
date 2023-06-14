@@ -20,11 +20,7 @@ public class Book {
 	@Id
 	private Long id;
 	private String title;
-	
-	
-//	@JsonManagedReference
-//    @JoinTable(name = "author", joinColumns = @JoinColumn(name = "author"), inverseJoinColumns = @JoinColumn(name = "name"))
-    private String author;
+    	private String author;
 	private String published_date;
 	private String borrower;
 	
